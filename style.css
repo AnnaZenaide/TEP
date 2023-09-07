@@ -1,111 +1,40 @@
 /* XS */
 h1 {
-  color: red;
+  color: pink;
 }
-
-.col-4{
-    color: red;
-  }
-
-/* SM  >= 576px  */
+/* SM */
 @media (min-width: 576px) {
-  /* h1 {
-    color: blue;
-  } */
-  .small{
-    width: 500px;
-    
+  h1 {
+    color: lightblue;
   }
 }
-
-/* MD >= 768px */
+/* MD */
 @media (min-width: 768px) {
   h1 {
-    color: green;
-  }
-
-  .col-4{
-    color: green;
+    color: lightgreen;
   }
 }
-
-/* LG >= 992px */
-@media (min-width: 992px) {
-  h1 {
-    color: purple;
-  }
-  .small{
-    width: 700px;
-  }
-
-  .col-4{
-    color: purple;
-  }
-}
-
-/* XL >= 1200px */
-@media (min-width: 1200px) {
-  h1 {
-    color: orange;
-  }
-  .small{
-    width: 900px!;
-  }
-
-  .col-4{
-    color: orange;
-  }
-}
-
-/* XXL >= 1400px */
-@media (min-width: 1400px) {
-  h1 {
-    color: gray;
-  }
-
-  .col-4{
-    color: gray;
-  }
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: gray;
-  border-color: black;
-}
-
-/* .container {
-  background-color: #ccc;
-} */
 
 .container-fluid {
   background-color: #888;
 }
 
-.container-sm {
-  margin-bottom: 20px;
-  border: 2px solid blue;
+.cor1{
+  background-color: blue;
 }
 
-.container-md {
-  margin-bottom: 20px;
-  border: 2px solid crimson;
+.cor2{
+  background-color: green;
 }
 
-.container-lg {
-  border: 2px solid chocolate;
+.cor3{
+  background-color: purple;
 }
 
-.container-xl {
-  border: 2px solid green;
+.cor4{
+  background-color: red;
 }
 
-.container-xxl {
-  border: 2px solid yellow;
-}
-
-.g-col-3 {
-  border: 1px solid black;
-}
-
-/* GRID CONTAINER*/
+.col-4{
+    color: black;
+  }
