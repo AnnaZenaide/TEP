@@ -1,40 +1,24 @@
-/* XS */
-h1 {
-  color: pink;
-}
-/* SM */
-@media (min-width: 576px) {
-  h1 {
-    color: lightblue;
-  }
-}
-/* MD */
-@media (min-width: 768px) {
-  h1 {
-    color: lightgreen;
-  }
+body{
+	background-color: E9E8E8;
 }
 
-.container-fluid {
-  background-color: #888;
+.login-form{
+	padding: 15px;
+	margin: 20px 0;
+	border: 1px solid #000;
+	background-color: #F1DBBF;
 }
 
-.cor1{
-  background-color: blue;
+h3{
+	text-align: center;
 }
 
-.cor2{
-  background-color: green;
+.changeButton{
+	display: flex;
+	justify-content: end;
 }
 
-.cor3{
-  background-color: purple;
+.changeButton button{
+	padding: 5px;
+	margin-right: 10px;
 }
-
-.cor4{
-  background-color: red;
-}
-
-.col-4{
-    color: black;
-  }

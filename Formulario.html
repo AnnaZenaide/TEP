@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+<body>
+	<div class="container-md col-6">
+
+		<form class="row gy-5 login-form">
+			<div class="col-md-10">
+				<h3>Cadastro de Usuário</h3>
+			</div>
+
+			<div class="col-md-10">
+				<label for="name" class="form-label">Nome</label>
+				<input type="nome" class="form-control" id="name">
+			</div>
+
+			<div class="col-md-8">
+				<label for="Email" class="form-label">Email</label>
+				<input type="email" class="form-control" id="Email">
+			</div>
+
+			<div class="col-md-8">
+				<label for="Password" class="form-label">Password</label>
+				<input type="password" class="form-control" id="Password">
+			</div>
+
+			<div class="col-md-12">
+				<label for="Endereço" class="form-label">Rua</label>
+				<input type="rua" class="form-control" id="Endereço" placeholder="1234 Main St">
+			</div>
+
+			<div class="col-md-12">
+				<label for="Bairro" class="form-label">Bairro</label>
+				<input type="bairro" class="form-control" id="Bairro" placeholder="Apartment, studio, or floor">
+			</div>
+	
+			<div class="row"></div>
+
+			<div class="row col-md-12">
+			    <div class="col-5">
+			    	<label for="Cidade" class="form-label">City</label> 
+					<input type="cidade" class="form-control" id="Cidade">
+			    </div>
+
+			    <div class="col-4">
+			    	<label for="Estado" class="form-label">State</label> <br>
+					<select  class="form-select btn bg-light col-12" aria-label="Default select example">
+					  <option selected>Choose..</option>
+					  <option value="1">One</option>
+					  <option value="2">Two</option>
+					  <option value="3">Three</option>
+					</select>
+			    </div>
+
+			    <div class="col-3">
+				    <label for="zip" class="form-label">Zip</label>
+					<input  type="zip" class="form-control" id="Zip">
+			    </div>
+  			</div>
+				
+			<div class="col-md-12 ml-4">
+					<input type="checkbox" class="form-check-input" id="Check">
+				    <label for="Check" class="form-check-label">Check me out</label>
+			</div>
+
+			<div class="changeButton">
+				<button type="submit" class="btn btn-primary">Submit</button>
+				<button type="clean" class="btn btn-warning">Clean</button>
+			</div>
+			
+		</form>
+	</div>
+</body>
+</html>
