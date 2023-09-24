@@ -1,0 +1,15 @@
+.login-form{
+	padding: 15px;
+	margin: 20px 0;
+	border: 1px solid #766ec5;
+	background-color: #CCC;
+}
+
+.banner{
+	border: 1px solid black;
+}
+
+.changeButton{
+	display: flex;
+	justify-content: center;
+}
